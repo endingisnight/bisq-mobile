@@ -52,6 +52,7 @@ localProperties.load(File(rootDir, "local.properties").inputStream())
 
 android {
     namespace = "network.bisq.mobile.client"
+    versionCode = 1
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     signingConfigs {
